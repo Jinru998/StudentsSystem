@@ -17,7 +17,7 @@ public class StudentController {
     @PostMapping("/add")
     public String add(@RequestBody Student student) {
         studentService.saveStudent(student);
-        return "New student is added";
+        return "New student is added haha";
     }
 
     @GetMapping("/getAll")
